@@ -1,0 +1,222 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+
+
+
+/*设置悬浮块的位置*/
+.float_block{
+	position: fixed;
+	top: 300px;
+	right: 10px;
+}
+
+/*设置大标题框的位置、大小、颜色和边框效果*/
+.head{
+	margin-top: 0px;
+	margin-left: 10px;
+	margin-right: 10px;
+	height: 80px;
+	background-color: rgba(47,245,218,0.1);
+	border-style: groove;
+	border-radius: 15px;
+}
+
+/*设置大标题框中的文字颜色、字体、粗细、大小、居中方式*/
+.title_font_style{
+	color: purple;
+	font-family:Cambria, Hoefler Text, Liberation Serif, Times, Times New Roman, serif;
+	font-weight: 500;
+	font-size: 60px;
+	margin-left: 400px;
+}
+
+.motto_block{
+	margin-top: 2px;
+	margin-left: 10px;
+	margin-right: 10px;
+	height: 50px;
+	background-color:rgba(125,13,248,0.2);
+	border-style: groove;
+	border-radius: 15px;
+}
+
+.motto_font_style{
+	color:navy;
+	font-family:Consolas, Andale Mono, Lucida Console, Lucida Sans Typewriter, Monaco, Courier New, monospace;
+	font-weight: 500;
+	font-size: 40px;
+	text-align: center;
+}
+
+/*设置提示框的位置、大小、颜色和边框效果*/
+.tip{
+	margin-top: 2px;
+	margin-left: 10px;
+	margin-right: 10px;
+	height: 25px;
+	background-color: rgba(235,230,95,0.1);
+	border-style: groove;
+	border-radius: 15px;
+}
+
+/*设置提示框中的文字颜色、字体、粗细、大小、居中方式*/
+.tip_font_style{
+	color: coral;
+	font-family:Consolas, Andale Mono, Lucida Console, Lucida Sans Typewriter, Monaco, Courier New, monospace;
+	font-weight:500;
+	font-size: 15px;
+	text-align: center;
+}
+
+/*设置主体框的位置、大小、颜色和边框效果*/
+.body_block{
+	margin-top: 2px;
+	margin-left: 10px;
+	margin-right: 10px;
+	height: 2000px;
+	background-color: rgba(255,255,255,0.1);
+	border-style: groove;
+	border-radius: 15px;
+}
+
+/*设置大主体框中左边的介绍框的位置、大小、颜色和边框效果*/
+.brief_introduction_on_the_left{
+	margin-top: 5px;
+	margin-left: 5px;
+	width: 300px;
+	height: 1990px;
+	background-color: rgba(235,106,243,0.1);
+	border-style: groove;
+	border-radius: 15px;
+	float: left;
+}
+
+/*设置介绍框中的文字颜色、字体、粗细、大小、居中方式*/
+.introduction_font_style_1{
+	margin-top: 10px; 
+	text-align:center; 
+	color: purple; 
+	font-family:Cambria, Hoefler Text, Liberation Serif, Times, Times New Roman, serif; 
+	font-weight: 500; 
+	font-size: 25px;
+}
+
+.introduction_font_style_2{
+	margin-top: 20px;
+	margin-left: 20px;
+	color:darkslateblue;
+	font-family:Consolas, Andale Mono, Lucida Console, Lucida Sans Typewriter, Monaco, Courier New, monospace;
+	font-weight: 500;
+	font-size: 20px;
+}
+
+/*设置大主体框中间的正文框的位置、大小、颜色和边框效果*/
+.passage{
+	margin-top: 5px;
+	margin-left: 3px;
+	width: 800px;
+	height: 1990px;
+	background-color: rgba(236,117,117,0.1);
+	border-style: groove;
+	border-radius: 15px;
+	float: left;
+}
+
+/*设置正文框中的文字颜色、字体、粗细、大小、居中方式*/
+.passage_font_style_1{
+	margin-top: 10px; 
+	text-align:center; 
+	color: purple; 
+	font-family:Consolas, Andale Mono, Lucida Console, Lucida Sans Typewriter, Monaco, Courier New, monospace; 
+	font-weight: 1000; 
+	font-size: 25px;
+}
+
+.passage_font_style_2{
+	margin-top: 15px;
+	margin-left: 10px;
+	font-family:Consolas, Andale Mono, Lucida Console, Lucida Sans Typewriter, Monaco, Courier New, monospace;
+	font-weight: 500;
+	font-size: 15px;
+}
+
+/*设置大主体框中右边的社交媒体链接框的位置、大小、颜色和边框效果*/
+.social_id_on_the_right{
+	margin-top: 5px;
+	margin-left: 1120px;
+	margin-right: 5px;
+	height: 1990px;
+	background-color: rgba(193,12,243,0.1);
+	border-style: groove;
+	border-radius: 15px;
+}
+
+/*设置社交框中的文字颜色、字体、粗细、大小、居中方式*/
+.social_font_style_1{
+	margin-top: 10px; 
+	text-align:center; 
+	color:orange; 
+	font-family:Consolas, Andale Mono, Lucida Console, Lucida Sans Typewriter, Monaco, Courier New, monospace; 
+	font-weight: 800; 
+	font-size: 25px;
+}
+
+.social_font_style_2{
+	margin-top: 20px;
+	margin-left: 20px;
+	color:tomato;
+	font-family:Consolas, Andale Mono, Lucida Console, Lucida Sans Typewriter, Monaco, Courier New, monospace;
+	font-weight: 500;
+	font-size: 20px;
+	text-align: center;
+}
+
+/*设置底部版本等信息框*/
+.version_block{
+	margin-top: 2px;
+	margin-left: 10px;
+	margin-right: 10px;
+	height: 80px;
+	background-color:rgba(6,197,245,0.3);
+	border-style: groove;
+	border-radius: 15px;
+}
+
+/*设置底部字体样式*/
+.bottom_font_style{
+	font-family:Consolas, Andale Mono, Lucida Console, Lucida Sans Typewriter, Monaco, Courier New, monospace;
+	font-weight: 300;
+	font-size: 15px;
+	text-align: center;
+}
+
+
+
+
+
+
+/*以下设置了背景效果*/
+*{
+	margin: 0;
+	padding: 0;
+}
+#canvas{
+	position: fixed;
+	background: #ccc;
+	overflow: auto;
+	z-index: -1;
+}
+
+
+#canvas1{
+	position: fixed;
+	pointer-events:none;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	z-index: 999;
+
+}
